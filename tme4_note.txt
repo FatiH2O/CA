@@ -1,0 +1,5 @@
+gcc -I include extra/gc.c <mg.c> -o ..
+iclude dans ./gc
+#include "gc.h" -> gc-malloc
+
+-> valgrind pour tester si fuite memeoir tout ça (sur eclipse )
